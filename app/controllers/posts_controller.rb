@@ -3,7 +3,7 @@ class PostsController < ApplicationController
 		@posts = Post.all
 	end
 
-	def show
+	def navigate
 		@post = Post.find(params[:id])
 	end
 
